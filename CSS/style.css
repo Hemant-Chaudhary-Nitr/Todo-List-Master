@@ -1,0 +1,79 @@
+body{
+    background: #2bc0e4; 
+    background: -webkit-linear-gradient(to right, #2bc0e4, #eaecc6); 
+    background: linear-gradient(to right, #2bc0e4, #eaecc6);
+}
+#dashboard{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10vh; */
+    border-bottom: 2px black solid;
+
+}
+.hov{
+    transition: all .3s ease-out;
+}
+#logo{
+    margin: auto;
+}
+.hov:hover{
+    font-size: 20px;
+    transform: translate(5px, 5px);
+}
+.dashboard-items{
+    margin: auto;
+}
+
+#main-body{
+    height: 100%;
+    width: 100%;
+    margin-top: 2px;
+    
+}
+#sign-page{
+    width: 400px;
+    height: 410px;
+    margin: auto;
+    margin-top: 100px;
+    background: #2bc0e4; 
+    background: -webkit-linear-gradient(to right, #2bc0e4, #eaecc6); 
+    background: linear-gradient(to right, #2bc0e4, #eaecc6);
+    text-align: center;
+    border-radius: 10%;
+}
+a{
+    text-decoration: none;
+}
+input[type=email], input[type=text],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background: #4776E6;
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6); 
+    background: linear-gradient(to right, #8E54E9, #4776E6);
+
+    color: white;
+    padding: 14px 20px;
+    
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /* border-radius: 5%; */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
